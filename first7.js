@@ -8,18 +8,13 @@ const person = {
 }
 // console.log(person);
 
-//dot notation
+//dot notation --
 // console.log(person.profession);
 //or
-let income = person.salary;
-console.log(income);
+console.log(person.salary);
 
-//bracket notation
+//bracket notation --
 // console.log(person['age'])
-//or
-let youth = person['age'];
-console.log(youth);
 
 // fav Place , property access
-
 console.log(person['fav Place']);
