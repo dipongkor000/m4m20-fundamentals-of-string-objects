@@ -3,20 +3,16 @@ const sentence = 'I am learning Web Dev.'
 
 let div = '';
 for(const s of sentence){
-    // console.log(letter);
     div = s + div;
 }
 console.log(div);
 
 //alternative ----
-// let reverse = '';
+// let div = '';
 // for(let i = 0; i < sentence.length; i++){
-//     // console.log(i);
-//     // console.log(sentence[i]);
-//     const letter = sentence[i];
-//     reverse = letter + reverse;
+//     div = sentence[i] + div;
 // }
-// console.log(reverse);
+// console.log(div);
 
 //alternative shortcut----
 // let reversed = sentence.split('').reverse().join('');
