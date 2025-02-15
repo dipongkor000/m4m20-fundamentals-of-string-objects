@@ -1,12 +1,12 @@
 const sentence = 'I am learning Web Dev.'
 // const result = '.veD beW gninrael ma I'
 
-let reverse = '';
-for(const letter of sentence){
+let div = '';
+for(const s of sentence){
     // console.log(letter);
-    reverse = letter + reverse;
+    div = s + div;
 }
-console.log(reverse);
+console.log(div);
 
 //alternative ----
 // let reverse = '';
